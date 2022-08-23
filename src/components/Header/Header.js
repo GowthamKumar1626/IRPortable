@@ -17,7 +17,7 @@ function Header() {
             navbarScroll
           >
             <Nav.Link onClick={()=>navigate('/')}>Home</Nav.Link>
-            <Nav.Link onClick={()=>navigate('/records')}>Records</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/monthly/records')}>Records</Nav.Link>
             {/*<NavDropdown title="Link" id="navbarScrollingDropdown">*/}
             {/*  <NavDropdown.Item href="#action3">Action</NavDropdown.Item>*/}
             {/*  <NavDropdown.Item href="#action4">*/}

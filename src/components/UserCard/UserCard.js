@@ -8,7 +8,7 @@ const UserCard = ({name, photoSrc, patientID, age}) => {
     const navigate = useNavigate();
 
     const handleClick = (patientID, photoSrc) => {
-        navigate(`/${patientID}?photo=${photoSrc}`)
+        navigate(`/patient/${patientID}?photo=${photoSrc}`)
     }
 
     return (

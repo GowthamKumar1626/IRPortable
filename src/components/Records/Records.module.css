@@ -1,0 +1,22 @@
+.record-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 1rem 0;
+    padding: 0 4rem;
+}
+
+.record-item {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #cecece;
+    border-radius: 1rem;
+}
+
+.actions {
+    display: flex;
+    column-gap: 3rem;
+}
