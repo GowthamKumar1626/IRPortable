@@ -1,0 +1,64 @@
+.dashboard-container {
+    padding: 2rem;
+}
+
+.indicators-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.indicator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #cecece;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row {
+    padding: 1rem 0;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.temp {
+    font-size: 5rem;
+}
+
+.user-details-table > tbody > tr > td {
+    vertical-align: top !important;
+}
+
+.user-details-table > tbody > tr > td:nth-child(1) {
+    font-weight: bold;
+}
+
+.user-details-table > tbody > tr > td:nth-child(1) {
+    min-width: 7rem;
+    max-width: 8rem;
+    overflow-wrap: break-word;
+}
+
+.user-details-table > tbody > tr > td:nth-child(2) {
+    max-width: 8rem;
+    overflow-wrap: break-word;
+}
+
+.medicine-records {
+    display: flex;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+    flex-wrap: wrap;
+}

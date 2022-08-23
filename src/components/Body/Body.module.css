@@ -1,0 +1,13 @@
+.user-tiles {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.user-tiles > * {
+  align-self: stretch;
+}
