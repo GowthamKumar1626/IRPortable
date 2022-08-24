@@ -10,18 +10,16 @@ import Typography from '@mui/material/Typography';
 
 const steps = [
     {
-        label: '04/08/2022',
-        description: `For each ad campaign that you create, you can control how much
-              you're willing to spend on clicks and conversions, which networks
-              and geographical locations you want your ads to show on, and more.`,
+        label: 'Last hospital visit: 04/08/2022',
+        description: `Conducted mammogram and changed medications`,
     },
     {
-        label: '28/07/2022',
+        label: 'Previous hospital visit: 28/07/2022',
         description:
             'An ad group contains one or more ads which target a shared set of keywords.',
     },
     {
-        label: '14/07/2022',
+        label: 'Previous hospital visit: 14/07/2022',
         description: `Try out different ad text to see what brings in the most customers,
               and learn how to enhance your ads using features like ad extensions.
               If you run into any problems with your ads, find out how to tell if
