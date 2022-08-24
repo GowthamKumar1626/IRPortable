@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import {Col, Row} from "react-bootstrap";
 import { Chart } from "react-google-charts";
 import styles from './PatientDashboard.module.css';
-import {useParams, useSearchParams} from "react-router-dom";
+import {useNavigate, useParams, useSearchParams} from "react-router-dom";
 import VerticalLinearStepper from "../Activity/Activity";
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
@@ -192,6 +192,8 @@ const PatientDashboard = () => {
     const [searchParams] = useSearchParams();
     const photoSrc = searchParams.get('photo');
 
+    const navigate = useNavigate();
+
     return (
         <>
             <Header/>
@@ -222,6 +224,9 @@ const PatientDashboard = () => {
                             <Stack spacing={2} direction="row">
                                 <Button variant="text">Add medication</Button>
                                 <Button variant="contained">Remove medication</Button>
+                            </Stack>
+                            <Stack direction="row">
+                                <Button onClick={()=>navigate('/monthly/records')} variant="contained">Monthly records</Button>
                             </Stack>
                         </Box>
                     </Col>
