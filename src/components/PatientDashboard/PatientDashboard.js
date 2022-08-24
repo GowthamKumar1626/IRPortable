@@ -225,6 +225,7 @@ const PatientDashboard = () => {
                                 <Button variant="text">Add medication</Button>
                                 <Button variant="contained">Remove medication</Button>
                             </Stack>
+                            <br/>
                             <Stack direction="row">
                                 <Button onClick={()=>navigate('/monthly/records')} variant="contained">Monthly records</Button>
                             </Stack>
