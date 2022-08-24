@@ -130,10 +130,10 @@ const IndicatorContainer = () => {
                     </Col>
                     <Col>
                         <Row>
-                            Min hear rate: <b>68</b>
+                            Min heart rate: <b>68</b>
                         </Row>
                         <Row>
-                            Max hear rate: <b>85</b>
+                            Max heart rate: <b>85</b>
                         </Row>
                     </Col>
                 </Row>
