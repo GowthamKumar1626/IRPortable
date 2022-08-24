@@ -28,11 +28,11 @@ const temperatureOptions = {
 
 const pulseData = [
     ["Time", "Pulse in number of Beats"],
-    ["06:00", 98.4],
-    ["10:00", 98.6],
-    ["14:00", 98.1],
-    ["18:00", 99.3],
-    ["22:00", 98.3],
+    ["06:00", 68],
+    ["10:00", 72],
+    ["14:00", 67],
+    ["18:00", 69],
+    ["22:00", 85],
 ];
 
 const pulseOptions = {
@@ -130,10 +130,10 @@ const IndicatorContainer = () => {
                     </Col>
                     <Col>
                         <Row>
-                            Min temp: <b>98.1<sup>0</sup> F</b>
+                            Min hear rate: <b>68</b>
                         </Row>
                         <Row>
-                            Max temp: <b>100.3<sup>0</sup> F</b>
+                            Max hear rate: <b>85</b>
                         </Row>
                     </Col>
                 </Row>
